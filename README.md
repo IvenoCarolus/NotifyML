@@ -16,7 +16,7 @@ help you receive notifications on any models you're training.
     svd = SVD()#n_factors=300,n_epochs= 200, biased= True, lr_all= 0.005, reg_all= 0, init_mean= 0, init_std_dev= 0.01)
     svd.fit(data_full)
     #sends me an sms about the model trained, just a lil personal tool,these models take really long sometimes, you know
-    twilio_model_notif(account_sid='xxxx',auth_token='xxxx',user_name='Master Vino',project_name='Movie-Recommender',model_type='SVD',model_params=     {'n_factors':300})
+    twilio_model_notif(account_sid='xxxx',auth_token='xxxx',user_name='Master Vino',project_name='Movie-Recommender',model_type='SVD',model_params={'n_factors':300})
   </code>
  </pre>
 <br>
