@@ -12,9 +12,9 @@ help you receive notifications on any models you're training.
 <br>
 <code>
 from notify_user import twilio_model_notif
-twilio_model_notif(account_sid='xxxxxxxxxxxx',auth_token='xxxxxxxx',\
-                   user_name='Master Vino',project_name='Kaggle-Prostate',\
-                   model_type='LinearSVC',model_params={'C':0.001})
+twilio_model_notif(account_sid='xxx',auth_token='xxxx',\
+user_name='Master Vino',project_name='Kaggle-Prostate',\
+model_type='LinearSVC',model_params={'C':0.001})
 </code>
 <br>
 4. Fill the parameters with values based on your personal model. Be sure to use your own account sid and author token
