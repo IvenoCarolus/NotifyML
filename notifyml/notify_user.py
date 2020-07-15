@@ -1,10 +1,6 @@
 # importing twilio
 from twilio.rest import Client
 
-# Your Account Sid and Auth Token from twilio.com / console
-account_sid = 'AC5301eed8856293a2b6f13c059450aa06'
-auth_token = '68c469bf4751b5932c847c564be4c26a'
-
 def twilio_model_notif(account_sid='',auth_token='',user_name='',project_name='',model_type='',model_params={},flag=1):
     """
     This function makes use of the twilio api to send an SMS to the provided number.
