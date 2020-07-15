@@ -11,13 +11,7 @@ help you receive notifications on any models you're training.
 3. Insert the following code below the training of your model(s):
 <br>
 <code>
-from notify_user import twilio_model_notif
-twilio_model_notif(account_sid='xxx',\ \n
-                  auth_token='xxxx',\ \n
-                  user_name='Your Name',\ \n
-                  project_name='Your Project type',\ \n
-                  model_type='Your model type',\ \n
-                  model_params={'C':0.001})
+  Coming soon..
 </code>
 <br>
 4. Fill the parameters with values based on your personal model. Be sure to use your own account sid and author token
