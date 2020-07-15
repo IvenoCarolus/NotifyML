@@ -12,11 +12,11 @@ help you receive notifications on any models you're training.
 <br>
 <code>
 from notify_user import twilio_model_notif
-twilio_model_notif(account_sid='xxx',\ <br>
-                  auth_token='xxxx',\ <br>
-                  user_name='Your Name',\ <br>
-                  project_name='Your Project type',\ <br>
-                  model_type='Your model type',\ <br>
+twilio_model_notif(account_sid='xxx',\ \n
+                  auth_token='xxxx',\ \n
+                  user_name='Your Name',\ \n
+                  project_name='Your Project type',\ \n
+                  model_type='Your model type',\ \n
                   model_params={'C':0.001})
 </code>
 <br>
