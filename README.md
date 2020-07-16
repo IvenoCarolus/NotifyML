@@ -9,11 +9,11 @@ help you receive notifications on any models you're training.
 1. Set up a [Twilio account](https://www.twilio.com/try-twilio)
 2. Get your account sid and author token from your Twilio dashboard [If you see bill on your Twilio account don't stress it's free, the trial account provides you with one free number]
 3. Install notifyml with the following code:<br>
-          <pre>
+          
               <code>
               !pip install --ignore-installed --upgrade git+https://github.com/IvenoCarolus/NotifyML
               </code>
-          </pre>
+          
 4. Insert the following code below the training of your model(s):
 <br>
 <pre>
