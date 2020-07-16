@@ -15,7 +15,7 @@ help you receive notifications on any models you're training.
     from notifyml.notify_user import  twilio_model_notif
     svd = SVD(n_factors=300)  #DO NOT COPY THIS
     svd.fit(data_full)        #DO NOT COPY THIS 
-    #Be sure to copy the code below, and replace the parameters with 
+    #Be sure to copy the code below, and replace the parameters with your own values
     twilio_model_notif(account_sid='xxxx',auth_token='xxx',\
                    user_name='Master Vino',project_name='Movie-Recommender',\
                    model_type='SVD',model_params={'n_factors':300},twilio_num='+27671717654',your_number='+27671717611')
