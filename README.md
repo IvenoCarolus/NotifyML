@@ -16,9 +16,10 @@ help you receive notifications on any models you're training.
     svd = SVD(n_factors=300)
     svd.fit(data_full)
     #sends me an sms about the model trained, just a lil personal tool,these models take really long sometimes, you know
-    twilio_model_notif(account_sid='AC5301eed8856293a2b6f13c059450aa06',auth_token='049207fa7cce83063176a5e664736cfc',\
+    twilio_model_notif(account_sid='xxxx',auth_token='xxx',\
                    user_name='Master Vino',project_name='Movie-Recommender',\
-                   model_type='SVD',model_params={'n_factors':300},twilio_num='+12565489886',your_number='+27670757612')
+                   model_type='SVD',model_params={'n_factors':300},twilio_num='+27671717654',your_number='+27671717611')
+                   #Those are fake numbers please replace them with your own and please ensure that they're in this format^.
   </code>
  </pre>
 <br>
