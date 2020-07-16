@@ -31,5 +31,5 @@ def twilio_model_notif(account_sid='',auth_token='',user_name='',project_name=''
     message = client.messages.create(
         from_='+12565489886', #replace with number given from twilio
         body=output_string,
-        to='+27670757612' #replace with your number
+        to='+xxx' #replace with your number
         )
