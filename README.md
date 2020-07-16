@@ -21,3 +21,8 @@ help you receive notifications on any models you're training.
  </pre>
 <br>
 4. Fill the parameters with values based on your personal model. Be sure to use your own account sid and author token
+
+# Coming soon
+
+* <b>Multimedia notifications</b>
+* <b>Telegram update(Huge update will not be released soon)</b>
