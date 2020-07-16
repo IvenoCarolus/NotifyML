@@ -25,4 +25,4 @@ help you receive notifications on any models you're training.
 # Coming soon
 
 * <b>Multimedia notifications</b>
-* <b>Telegram update(Huge update will not be released soon)</b>
+* <b>Telegram update(Will take quite a while but should be up soon)</b>
