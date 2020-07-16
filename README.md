@@ -1,4 +1,4 @@
-# Notify ML
+# NotifyML
 
 ## What is NotifyML?
 NotifyML is a python package with some functions that'll
