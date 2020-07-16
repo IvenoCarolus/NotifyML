@@ -13,8 +13,8 @@ help you receive notifications on any models you're training.
 <pre>
   <code>
     from notifyml.notify_user import  twilio_model_notif
-    svd = SVD(n_factors=300)
-    svd.fit(data_full)
+    svd = SVD(n_factors=300)  #DO NOT COPY THIS
+    svd.fit(data_full)        #DO NOT COPY THIS 
     #sends me an sms about the model trained, just a lil personal tool,these models take really long sometimes, you know
     twilio_model_notif(account_sid='xxxx',auth_token='xxx',\
                    user_name='Master Vino',project_name='Movie-Recommender',\
