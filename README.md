@@ -1,8 +1,9 @@
 # Notify ML
 
 ## What is NotifyML?
-NotifyML is a python library with some functions that'll
+NotifyML is a python package with some functions that'll
 help you receive notifications on any models you're training.
+The package was developed for personal use, however I'm all for open source :)
 
 ## Twilio
 <b>What will you need to get started?</b>
@@ -37,3 +38,7 @@ help you receive notifications on any models you're training.
 
 * <b>Multimedia notifications</b>
 * <b>Telegram update(Will take quite a while but should be up soon)</b>
+* <b> Graphical interface (Will also take some time)</b>
+
+# Making contribution
+For now all I'll allow is forking and pulling this repository. If you really think you've got a great idea and want to contribute, please contact me -  bubblesortguru@gmail.com
