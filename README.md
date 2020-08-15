@@ -40,5 +40,5 @@ The package was developed for personal use, however I'm all for open source :)
 * <b>Telegram update(Will take quite a while but should be up soon)</b>
 * <b> Graphical interface (Will also take some time)</b>
 
-# Making contribution
+# Making a contribution
 For now all I'll allow is forking and pulling this repository. If you really think you've got a great idea and want to contribute, please contact me -  bubblesortguru@gmail.com
